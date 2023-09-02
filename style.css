@@ -1,0 +1,54 @@
+
+.profile-image {
+    border-radius: 50%;
+    width: 200px; /* Ajusta el tamaño de la imagen */
+    height: 200px; /* Ajusta el tamaño de la imagen */
+    object-fit: cover; /* Evita que la imagen se estire */
+}
+
+.bg-color {
+    background-color:rgb(182, 200, 218);
+}
+
+.section-divider {
+    border-top: 2px solid #b48888; /* Estilo y color de la línea */
+    margin-top: 30px; /* Espacio entre secciones */
+    margin-bottom: 30px; /* Espacio entre secciones */
+}
+
+.sectionskills {
+    background-color:rgb(235, 221, 221); /* Color de fondo de la primera sección */
+}
+
+h1, h2, h3 {
+        font-family: "Roboto", sans-serif;
+}
+
+p {
+        font-family: "Open Sans", sans-serif;
+}
+
+.font-titles{
+
+    font-family: cursive;
+
+}
+
+footer {
+    display: flex;
+    width: 120%;
+    height: 120px;
+    background-color:lightslategrey;
+}
+
+.align-left li {
+    margin: 10px 0;
+}
+
+.align-left a {
+    text-decoration: none;
+    color: var(--white);
+}
+.align-left ul {
+    list-style: none;
+}
